@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  margin-left: 20px;
+}
+
+.box{
+  position: relative;
+  overflow: hidden;
+  padding: 5%;
+}
+
+.box img{
+  border-radius: 20px;
+  width: 100%;
+}
+
+.caption{
+  width: 90%;
+  height: 75px;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  bottom: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  opacity: 0;
+  transition: all 0.5s;
+  border-radius: 20px;
+}
+
+.caption h2{
+  margin: 10px;
+  transform: translateY(50%);
+  transition: all 1s;
+}
+
+.box:hover > .caption h2{
+  transform: translateY(0px);
+}
+
+.box:hover > .caption{
+  opacity: 1;
+}
+
+
+.searchIcon{
+  width: 100px;
+  height: 100px;
+}
+
+.searchBox{
+  padding: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+.searchBox input{
+ background: transparent;
+ border: none;
+ outline: none;
+ width: 0px;
+ font-weight: 500;
+ font-size: 16px;
+ transition: 0.8s;
+}
+
+.searchBox:hover input{
+  width: 250px;
+  border: 2px solid #000;
+  border-radius: 50px;
+  padding: 10px;
+  justify-content: center;
+}

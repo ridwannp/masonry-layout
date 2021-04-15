@@ -1,8 +1,7 @@
 Masonry Layout Gallery Image
 
 Library :
-Reactjs 
-React Mansonry -> react-masonry-component
+Reactjs & React Mansonry Layout -> react-masonry-component
 
 Feature :
 - Search Bar to filter by name of image ( hover on logo EVOS )

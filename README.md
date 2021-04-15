@@ -5,7 +5,7 @@ Reactjs & React Mansonry Layout -> react-masonry-component
 
 Feature :
 - Search Bar to filter by name of image ( hover on logo EVOS )
-- Hover image to know name category of image
+- Hover image to know name of image
 - Responsive layout
 
 Link Preview :
